@@ -1,0 +1,6 @@
+$ git checkout -b hotfix
+$ vim index.html
+$ git commit -a -m 'fixed the broken email address'
+$ git checkout master
+$ git merge hotfix
+$ git push origin master
